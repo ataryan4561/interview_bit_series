@@ -56,7 +56,7 @@ int Solution::sqrt(int A) {
       while(l<=r) 
       {
            ll mid=(l+r)/2;
-            if(mid<=o/mid && (mid+1)*(mid+1)>o)
+            if(mid<=o/mid && (mid+1)>o/(mid+1))
              {
                   ans=mid; 
              } else if(mid>o/mid) 
